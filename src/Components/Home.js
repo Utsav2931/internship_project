@@ -24,7 +24,7 @@ function Home() {
             <Card data={data} />
          </div>
 
-         : <h1 className="heading"> Loading...</h1>
+         : <h1 className="loading"> Loading...</h1>
    )
 }
 
