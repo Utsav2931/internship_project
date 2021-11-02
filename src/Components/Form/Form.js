@@ -8,13 +8,13 @@ function Form(props) {
    const [number, setNumber] = useState("");
    const [error, setError] = useState("");
    const handleSubmit = (e) => {
-      if (name == "") {
+      if (name === "") {
          setError("Name can't be null");
          return false;
-      } else if (email == "") {
+      } else if (email === "") {
          setError("Email can't be null");
          return false;
-      } else if (number == "") {
+      } else if (number === "") {
          setError("Number can't be null");
          return false;
       }
